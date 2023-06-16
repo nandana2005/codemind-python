@@ -1,0 +1,5 @@
+n,m=map(int,input().split())
+s=str(n)
+k=int(s[0:m])
+f=int(s[len(s)-m:len(s)])
+print(abs(k-f))
